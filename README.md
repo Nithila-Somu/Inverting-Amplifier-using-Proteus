@@ -36,6 +36,8 @@ S.No	Input Voltage (Vin) (Vpp)	Output Voltage (Vout) (Vpp)	Practical Gain (Av = 
 4	    1.0 V	                    10 V	                      -10	                            -10
 
 ```
+
+
 ## Simulation Procedure (Proteus)
 1.	Open Proteus Design Suite
 2.	Select components:
