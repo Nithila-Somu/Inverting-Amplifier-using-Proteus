@@ -27,18 +27,18 @@ The input sine wave is applied through R1 and output is taken from pin 6.
 
 ## Tabulation
 Input Voltage (Vin)	Theoretical Gain (Av)	Theoretical Vout	Practical Vout (Proteus)
-````
+```
 
 S.No	Input Voltage (Vin) (Vpp)	Output Voltage (Vout) (Vpp)	Practical Gain (Av = Vout/Vin)	Theoretical Gain (Av = -Rf/R1)
 1    	0.1 V	                    1 V	                        -10	                            -10
 2	    0.2 V                   	2 V	                        -10	                            -10
 3	    0.5 V	                    5 V	                        -10	                            -10
-4	    1.0 V	                    10 V	                      -10	                            -10
+4	    1.0 V	                    10 V	                    -10	                           -10
 
 ```
 
 
-**## Simulation Procedure (Proteus)**
+## Simulation Procedure (Proteus)
 1.	Open Proteus Design Suite
 2.	Select components:
 o	μA741
@@ -53,14 +53,14 @@ o	Input = 1V, 1kHz sine wave
 5.	Apply ±15V power supply.
 6.	Run simulation.
 7.	Observe input and output waveforms on CRO.
-**##  Waveform Observation**
+##  Waveform Observation
 •	Input: Sine wave
 •	Output: Amplified sine wave
 •	Phase Shift: 180°
 •	Gain ≈ -10
 <img width="1371" height="874" alt="image" src="https://github.com/user-attachments/assets/16bc4fba-f6a1-4494-a02a-e05c1d028e06" />
 
-**## Result**
+## Result
 The Inverting Amplifier using μA741 Op-Amp was successfully designed and simulated in Proteus.
 The practical output voltage closely matches the theoretical value.
 The gain obtained is approximately -10, and the output waveform is inverted with respect to the input waveform.
